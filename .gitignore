@@ -3,6 +3,7 @@
 node_modules/
 jspm_packages/
 build/Release
+dist/
 
 logs
 *.log

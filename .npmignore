@@ -1,0 +1,6 @@
+src
+build
+.babelrc
+.gitignore
+.npmrc
+.nvmrc

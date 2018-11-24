@@ -1,11 +1,13 @@
 {
   "name": "lex-audio-client",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Capture voice audio and pass to Amazon Lex easily on the browser.",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint '**/*.{js,jsx}' -f stylish",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
   },
   "keywords": [
     "aws",
@@ -16,6 +18,9 @@
   "author": "Richard Neil Ilagan <me@richardneililagan.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
     "eslint": "5.9.0",
     "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": "2.14.0",
