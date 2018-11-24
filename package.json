@@ -1,6 +1,6 @@
 {
   "name": "lex-audio-client",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Capture voice audio and pass to Amazon Lex easily on the browser.",
   "main": "dist/index.js",
   "scripts": {
