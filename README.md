@@ -1,5 +1,10 @@
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 lex-audio-client
 ===
+
+> **Hey:** This project isn't quite ready yet.
 
 Enables you to easily capture voice / audio input for use with [Amazon Lex](https://aws.amazon.com/lex). Browser-friendly.
 
