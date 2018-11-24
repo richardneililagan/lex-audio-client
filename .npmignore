@@ -1,6 +1,11 @@
 src
 build
+examples
+webpack.config.js
 .babelrc
+.eslintignore
+.eslintrc.yml
 .gitignore
+.huskyrc
 .npmrc
 .nvmrc
